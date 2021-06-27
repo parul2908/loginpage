@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  background-image: url(parul.jpeg);
+  background-size:cover;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+  font: caption;
+}
+
+h1 {
+  color: crimson;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2{
+  color :yellow;
+  text-align: center;
+  font-size:75px;
+  font-weight: 700;
+}
+input[type="text"],
+ input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  width: 270px;
+  border-color: #ffc400ec;
+}
+
+ button[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #ffc400ec;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+p{
+  color: aliceblue;
+}
+ 
